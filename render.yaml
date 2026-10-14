@@ -4,7 +4,7 @@ services:
     runtime: static
     repo: https://github.com/Visura13/dengueguard-lk
     branch: main
-    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm build
+    buildCommand: corepack pnpm install --frozen-lockfile && corepack pnpm build
     staticPublishPath: ./dist
     routes:
       - type: rewrite
