@@ -37,6 +37,7 @@ This is an educational prototype, not an official government reporting channel. 
 - Custom responsive CSS
 - Lucide React icons
 - Browser Local Storage
+- Render static-site hosting
 - OpenAI Sites hosting
 
 ## Installation and execution
@@ -56,7 +57,8 @@ pnpm build
 
 ## Deployment
 
-- Public application: https://dengueguard-lk-se3090.spiffy-crumb-1348.chatgpt.site
+- Primary public application (Render): https://dengueguard-lk.onrender.com
+- Backup public application (OpenAI Sites): https://dengueguard-lk-se3090.spiffy-crumb-1348.chatgpt.site
 - GitHub repository: https://github.com/Visura13/dengueguard-lk
 
 ## Demonstration video
